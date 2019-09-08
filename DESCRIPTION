@@ -1,0 +1,16 @@
+Package: tfLDA
+Type: Package
+Title: tfLDA
+Description: The package provides a method to find Transcription Regulatory Module (TRM) based on ChIP-Seq data using Latent Dirichlet Allocation
+Version: 1.0.0
+Date: 2019-09-01
+Author: Li Chen
+Maintainer: Li Chen <lichen.emory@gmail.com>
+URL : https://github.com/lichen-lab/tfLDA
+License: GPL (>=2)
+Depends: R (>= 3.4)
+Imports: methods,plyr,lda, plyr,seqinr, doParallel,foreach, stringr, fitdistrplus,GenomicRanges
+VignetteBuilder: knitr
+Suggests: BiocStyle, knitr, org.Hs.eg.db, shiny
+NeedsCompilation: yes
+
