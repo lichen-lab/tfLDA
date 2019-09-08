@@ -6,7 +6,7 @@ Application of topic models to a compendium of ChIP-Seq datasets uncovers recurr
 Li Chen <li.chen@auburn.edu>
 
 
-# Install circMeta
+# Install tfLDA
 ```r
 install.packages("devtools")
 library(devtools)
@@ -14,7 +14,7 @@ install_github("lichen-lab/tfLDA")
 ```
 
 
-# Descriptions for circJuncDE
+# Descriptions for tfLDA
 
 ## Usage
 tfLDA(obj, topic = c(5, 10, 20), seed = 1234, iterations = 500, 
