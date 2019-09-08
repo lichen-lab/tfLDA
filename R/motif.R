@@ -3,12 +3,12 @@ fmotifscan<-function(seqIP,seqCT,outfile,database=c('JASPAR','TRANSFAC'),score="
   
   registerDoParallel(cores=ncore)
   if(database=='JASPAR'){
-    #data(JASPAR)
-    load('../JASPAR.rda')
+    data(JASPAR)
+    #load('../JASPAR.rda')
     allmotifs=JASPAR
   }else if(database=='TRANSFAC'){
-    #data(TRANSFAC)
-    load('../TRANSFAC.rda')
+    data(TRANSFAC)
+    #load('../TRANSFAC.rda')
     allmotifs=TRANSFAC
   }
   allmotifs.name=names(allmotifs)
@@ -81,12 +81,12 @@ fpeakscan<-function(seqIP,seqCT,peak,database=c('JASPAR','TRANSFAC'),score="80%"
   
   registerDoParallel(cores=ncore)
   if(database=='JASPAR'){
-    #data(JASPAR)
-    load('../JASPAR.rda')
+    data(JASPAR)
+    #load('../JASPAR.rda')
     allmotifs=JASPAR
   }else if(database=='TRANSFAC'){
-    #data(TRANSFAC)
-    load('../TRANSFAC.rda')
+    data(TRANSFAC)
+    #load('../TRANSFAC.rda')
     allmotifs=TRANSFAC
   }
   allmotifs.name=names(allmotifs)
