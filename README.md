@@ -37,8 +37,8 @@ tfLDA(obj, topic = c(5, 10, 20), seed = 1234, iterations = 500,
 
 # Examples of applying tfLDA for K562 and HeLaS3 
 
-K562:    https://github.com/lichen-lab/tfLDA/blob/master/K562.md
-HeLaS3:  https://github.com/lichen-lab/tfLDA/blob/master/HeLaS3.md
+* K562:    https://github.com/lichen-lab/tfLDA/blob/master/K562.md
+* HeLaS3:  https://github.com/lichen-lab/tfLDA/blob/master/HeLaS3.md
 
 
 
