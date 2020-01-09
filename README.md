@@ -3,7 +3,7 @@ Application of topic models to a compendium of ChIP-Seq datasets uncovers recurr
 
 
 # Maintainer
-Li Chen <li.chen@auburn.edu>
+Li Chen <chen61@iu.edu>
 
 
 # Install tfLDA
